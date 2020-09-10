@@ -1,0 +1,6 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/simple_message_web?useSSL=false
+    username: <username>
+    password: <password>
+    driver-class-name: com.mysql.jdbc.Driver
