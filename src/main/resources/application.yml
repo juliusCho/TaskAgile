@@ -1,6 +1,8 @@
 spring:
+  profiles:
+    active: dev
   datasource:
-    url: jdbc:mysql://localhost:3306/simple_message_web?useSSL=false
+    url: jdbc:mysql://localhost:3306/simple_message_web?serverTimezone=UTC&allowPublicKeyRetrieval=true&useSSL=false
     username: <username>
     password: <password>
     driver-class-name: com.mysql.jdbc.Driver
